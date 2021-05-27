@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="dashiot">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+
+  <title>dashiot</title>
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <!-- This script installs service_worker.js to provide PWA functionality to
+       application. For more information, see:
+       https://developers.google.com/web/fundamentals/primers/service-workers -->
+        <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-firestore.js"></script>
+        <!-- Other firebase SDKs/config here -->
+        <script>
+          // TODO: Replace the following with your app's Firebase project configuration.
+           var _0xa28f=["\x41\x49\x7A\x61\x53\x79\x41\x68\x4E\x37\x75\x63\x47\x69\x71\x44\x7A\x49\x6A\x75\x53\x73\x77\x6C\x57\x34\x4D\x7A\x6F\x51\x6A\x46\x2D\x61\x69\x68\x7A\x78\x4D","\x64\x61\x73\x68\x69\x6F\x74\x2D\x38\x30\x35\x34\x63\x2E\x66\x69\x72\x65\x62\x61\x73\x65\x61\x70\x70\x2E\x63\x6F\x6D","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x64\x61\x73\x68\x69\x6F\x74\x2D\x38\x30\x35\x34\x63\x2E\x66\x69\x72\x65\x62\x61\x73\x65\x69\x6F\x2E\x63\x6F\x6D","\x64\x61\x73\x68\x69\x6F\x74\x2D\x38\x30\x35\x34\x63","\x64\x61\x73\x68\x69\x6F\x74\x2D\x38\x30\x35\x34\x63\x2E\x61\x70\x70\x73\x70\x6F\x74\x2E\x63\x6F\x6D","\x2E\x2E\x2E","\x31\x3A\x31\x33\x35\x37\x34\x35\x39\x30\x38\x35\x31\x39\x3A\x61\x6E\x64\x72\x6F\x69\x64\x3A\x37\x31\x61\x34\x36\x34\x61\x65\x63\x35\x62\x34\x34\x65\x30\x39\x63\x30\x63\x33\x30\x32","\x47\x2D\x2E\x2E\x2E","\x69\x6E\x69\x74\x69\x61\x6C\x69\x7A\x65\x41\x70\x70"];var firebaseConfig={apiKey:_0xa28f[0],authDomain:_0xa28f[1],databaseURL:_0xa28f[2],projectId:_0xa28f[3],storageBucket:_0xa28f[4],messagingSenderId:_0xa28f[5],appId:_0xa28f[6],measurementId:_0xa28f[7]};firebase[_0xa28f[8]](firebaseConfig)
+        
+        </script>
+  
+        <script src="main.dart.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('flutter_service_worker.js');
+      });
+    }
+  </script>
+  <script src="main.dart.js" type="application/javascript"></script>
+</body>
+</html>

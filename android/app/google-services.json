@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "135745908519",
+    "firebase_url": "https://dashiot-8054c.firebaseio.com",
+    "project_id": "dashiot-8054c",
+    "storage_bucket": "dashiot-8054c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:135745908519:android:71a464aec5b44e09c0c302",
+        "android_client_info": {
+          "package_name": "com.example.dashiot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "135745908519-5a3c0fg4ddomrhr5rrb8e30ls184mrpm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dashiot",
+            "certificate_hash": "c5363148511941addba769008b97f6f93bfb4593"
+          }
+        },
+        {
+          "client_id": "135745908519-obdvfvhhaqqj239ec5qfn953lhrqeikj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhN7ucGiqDzIjuSswlW4MzoQjF-aihzxM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "135745908519-obdvfvhhaqqj239ec5qfn953lhrqeikj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
